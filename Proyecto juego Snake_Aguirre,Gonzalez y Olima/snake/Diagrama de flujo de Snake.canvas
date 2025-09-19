@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"378ae039cb547503","x":-141,"y":-316,"width":250,"height":60,"type":"text","text":"          INICIO"},
+		{"id":"35bfc9f4e935cb57","type":"text","text":"    INICIAR JUEGO ","x":-141,"y":-200,"width":250,"height":60},
+		{"id":"3e59d63cbc74d5df","x":160,"y":56,"width":100,"height":50,"type":"text","text":"SÍ"},
+		{"id":"88717a8e2bffc959","type":"text","text":"NO","x":160,"y":140,"width":100,"height":50},
+		{"id":"8029ca2c08b1f151","x":-141,"y":-100,"width":250,"height":61,"type":"text","text":"MOSTRAR PANTALLA DE JUEGO"},
+		{"id":"9a751250b9565217","x":-141,"y":-4,"width":250,"height":60,"type":"text","text":"MOVER SERPIENTE CON TECLAS"},
+		{"id":"587727d014adee18","x":-141,"y":81,"width":250,"height":60,"type":"text","text":"¿COLISION CON PARED Y CUERPO?"},
+		{"id":"3f5126b33d627c9b","x":300,"y":135,"width":195,"height":60,"type":"text","text":"SEGUIR JUGANDO"},
+		{"id":"795491a72917e46f","x":300,"y":56,"width":160,"height":50,"type":"text","text":"FIN DEL JUEGO"},
+		{"id":"5f4896d82b0f91ed","type":"text","text":"NO","x":160,"y":320,"width":100,"height":50},
+		{"id":"b5cd2b759beaf471","x":310,"y":320,"width":140,"height":50,"type":"text","text":"CONTINUA"},
+		{"id":"1fbd83f77afcb784","x":-141,"y":257,"width":250,"height":60,"type":"text","text":"¿SERPIENTE COME COMIDA?"},
+		{"id":"9bed7c091ca23c70","type":"text","text":"SÍ","x":160,"y":232,"width":100,"height":50},
+		{"id":"7f07beb05c20f544","x":300,"y":232,"width":340,"height":50,"type":"text","text":"AUMENTA TAMAÑO Y SUBE EL PUNTAJE"},
+		{"id":"97b31dfd90efb228","x":-141,"y":400,"width":250,"height":60,"type":"text","text":"FIN DEL JUEGO"}
+	],
+	"edges":[
+		{"id":"bcdfaf9917d3da67","fromNode":"378ae039cb547503","fromSide":"bottom","toNode":"35bfc9f4e935cb57","toSide":"top"},
+		{"id":"17000585e769d371","fromNode":"35bfc9f4e935cb57","fromSide":"bottom","toNode":"8029ca2c08b1f151","toSide":"top"},
+		{"id":"389c03e0909c3066","fromNode":"8029ca2c08b1f151","fromSide":"bottom","toNode":"9a751250b9565217","toSide":"top"},
+		{"id":"75ab56d0862993db","fromNode":"9a751250b9565217","fromSide":"bottom","toNode":"587727d014adee18","toSide":"top"},
+		{"id":"f6fd8cbe56f3188c","fromNode":"587727d014adee18","fromSide":"right","toNode":"3e59d63cbc74d5df","toSide":"left"},
+		{"id":"ebb1bdcdbd5203e9","fromNode":"587727d014adee18","fromSide":"right","toNode":"88717a8e2bffc959","toSide":"left"},
+		{"id":"aacf2eff4250fa88","fromNode":"3e59d63cbc74d5df","fromSide":"right","toNode":"795491a72917e46f","toSide":"left"},
+		{"id":"f7776933716f1f39","fromNode":"88717a8e2bffc959","fromSide":"right","toNode":"3f5126b33d627c9b","toSide":"left"},
+		{"id":"bbd26935831855d2","fromNode":"587727d014adee18","fromSide":"bottom","toNode":"1fbd83f77afcb784","toSide":"top"},
+		{"id":"e34b2838a9d38a83","fromNode":"9bed7c091ca23c70","fromSide":"right","toNode":"7f07beb05c20f544","toSide":"left"},
+		{"id":"bdedf86fd1ae9467","fromNode":"5f4896d82b0f91ed","fromSide":"right","toNode":"b5cd2b759beaf471","toSide":"left"},
+		{"id":"3b26279e6e1ca417","fromNode":"1fbd83f77afcb784","fromSide":"right","toNode":"9bed7c091ca23c70","toSide":"left"},
+		{"id":"9eb4f0b2cd9dbc7f","fromNode":"1fbd83f77afcb784","fromSide":"right","toNode":"5f4896d82b0f91ed","toSide":"left"},
+		{"id":"891c166dd01c748a","fromNode":"1fbd83f77afcb784","fromSide":"bottom","toNode":"97b31dfd90efb228","toSide":"top"}
+	]
+}
